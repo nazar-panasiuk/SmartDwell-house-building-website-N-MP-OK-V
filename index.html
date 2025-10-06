@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!-- Basic Page Needs
+	================================================== -->
+        <meta charset="utf-8" />
+        <title>SmartDwell</title>
+
+        <!-- Mobile Specific Metas
+	================================================== -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta
+            name="description"
+            content="Онлайн-платформа по строительству домов под ключ с практическими советами по подбору материалов, бюджетному планированию, юридическим аспектам и внедрению современных технологий."
+        />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, maximum-scale=5.0"
+        />
+
+        <!-- theme meta -->
+        <meta name="theme-name" content="educenter" />
+
+        <!-- ** Plugins Needed for the Project ** -->
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css" />
+        <!-- slick slider -->
+        <link rel="stylesheet" href="plugins/slick/slick.css" />
+        <!-- themefy-icon -->
+        <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css" />
+        <!-- animation css -->
+        <link rel="stylesheet" href="plugins/animate/animate.css" />
+        <!-- aos -->
+        <link rel="stylesheet" href="plugins/aos/aos.css" />
+        <!-- venobox popup -->
+        <link rel="stylesheet" href="plugins/venobox/venobox.css" />
+
+        <!-- Main Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+
+        <!--Favicon-->
+        <link
+            rel="shortcut icon"
+            href="images/favicon.png"
+            type="image/x-icon"
+        />
+        <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+    </head>
+
+    <body>
+        <!-- preloader start -->
+        <div class="preloader">
+            <img src="images/preloader.gif" alt="preloader" />
+        </div>
+        <!-- preloader end -->
+
+        <!-- header -->
+        <header class="fixed-top header">
+            <!-- navbar -->
+            <div class="navigation w-100">
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg navbar-dark p-0">
+                        <a class="navbar-brand" href="index.html">
+                            <h2 style="font-weight: bold; color: #ffbc3b">
+                                SmartDwell
+                            </h2>
+                        </a>
+                        <button
+                            class="navbar-toggler rounded-0"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#navigation"
+                            aria-controls="navigation"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                        >
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navigation">
+                            <ul class="navbar-nav ml-auto text-center">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html"
+                                        >Главная</a
+                                    >
+                                </li>
+                                <li class="nav-item @@about">
+                                    <a class="nav-link" href="about.html"
+                                        >О нас</a
+                                    >
+                                </li>
+                                <li class="nav-item @@courses">
+                                    <a class="nav-link" href="services.html"
+                                        >Услуги</a
+                                    >
+                                </li>
+                                <li class="nav-item @@blog">
+                                    <a class="nav-link" href="testimonials.html"
+                                        >Отзывы</a
+                                    >
+                                </li>
+                                <li class="nav-item @@contact">
+                                    <a class="nav-link" href="contact.html"
+                                        >Контакты</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!-- /header -->
+
+        <!-- hero slider -->
+        <section
+            class="hero-section overlay bg-cover"
+            data-background="images/banner/banner-1.jpg"
+        >
+            <div class="container">
+                <div class="hero-slider">
+                    <!-- slider item -->
+                    <div class="hero-slider-item">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <h1
+                                    class="text-white"
+                                    data-animation-out="fadeOutRight"
+                                    data-delay-out="5"
+                                    data-duration-in=".3"
+                                    data-animation-in="fadeInLeft"
+                                    data-delay-in=".1"
+                                >
+                                    Полное строительство домов под ключ
+                                </h1>
+                                <p
+                                    class="text-muted mb-4"
+                                    data-animation-out="fadeOutRight"
+                                    data-delay-out="5"
+                                    data-duration-in=".3"
+                                    data-animation-in="fadeInLeft"
+                                    data-delay-in=".4"
+                                >
+                                    Мы предлагаем практические решения по
+                                    подбору материалов, бюджетному планированию,
+                                    юридическим аспектам и внедрению современных
+                                    строительных технологий.
+                                </p>
+                                <a
+                                    href="contact.html"
+                                    class="btn btn-primary"
+                                    data-animation-out="fadeOutRight"
+                                    data-delay-out="5"
+                                    data-duration-in=".3"
+                                    data-animation-in="fadeInLeft"
+                                    data-delay-in=".7"
+                                >
+                                    Связаться с нами
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- slider item -->
+                    <div class="hero-slider-item">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <h1
+                                    class="text-white"
+                                    data-animation-out="fadeOutUp"
+                                    data-delay-out="5"
+                                    data-duration-in=".3"
+                                    data-animation-in="fadeInDown"
+                                    data-delay-in=".1"
+                                >
+                                    Индивидуальное планирование проектов
+                                </h1>
+                                <p
+                                    class="text-muted mb-4"
+                                    data-animation-out="fadeOutUp"
+                                    data-delay-out="5"
+                                    data-duration-in=".3"
+                                    data-animation-in="fadeInDown"
+                                    data-delay-in=".4"
+                                >
+                                    Консультации экспертов помогут грамотно
+                                    спланировать строительство, выбрать
+                                    материалы и соблюсти все юридические нормы.
+                                </p>
+                                <a
+                                    href="contact.html"
+                                    class="btn btn-primary"
+                                    data-animation-out="fadeOutUp"
+                                    data-delay-out="5"
+                                    data-duration-in=".3"
+                                    data-animation-in="fadeInDown"
+                                    data-delay-in=".7"
+                                >
+                                    Связаться с нами
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- slider item -->
+                    <div class="hero-slider-item">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <h1
+                                    class="text-white"
+                                    data-animation-out="fadeOutDown"
+                                    data-delay-out="5"
+                                    data-duration-in=".3"
+                                    data-animation-in="fadeInUp"
+                                    data-delay-in=".1"
+                                >
+                                    Современные технологии строительства
+                                </h1>
+                                <p
+                                    class="text-muted mb-4"
+                                    data-animation-out="fadeOutDown"
+                                    data-delay-out="5"
+                                    data-duration-in=".3"
+                                    data-animation-in="fadeInUp"
+                                    data-delay-in=".4"
+                                >
+                                    Используем инновационные решения для
+                                    повышения качества строительства, сокращения
+                                    сроков и оптимизации бюджета домов под ключ.
+                                </p>
+                                <a
+                                    href="contact.html"
+                                    class="btn btn-primary"
+                                    data-animation-out="fadeOutDown"
+                                    data-delay-out="5"
+                                    data-duration-in=".3"
+                                    data-animation-in="zoomIn"
+                                    data-delay-in=".7"
+                                >
+                                    Связаться с нами
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /hero slider -->
+
+        <!-- banner-feature -->
+        <section class="bg-gray overflow-md-hidden">
+            <div class="container-fluid p-0">
+                <div class="row no-gutters">
+                    <div class="col-xl-4 col-lg-5 align-self-end">
+                        <img
+                            class="img-fluid w-100"
+                            src="images/banner/banner-feature.png"
+                            alt="banner-feature"
+                        />
+                    </div>
+                    <div class="col-xl-8 col-lg-7">
+                        <div
+                            class="row feature-blocks bg-gray justify-content-between"
+                        >
+                            <div
+                                class="col-sm-6 col-xl-5 mb-xl-5 mb-lg-3 mb-4 text-center text-sm-left"
+                            >
+                                <i
+                                    class="ti-book mb-xl-4 mb-lg-3 mb-4 feature-icon"
+                                ></i>
+                                <h3 class="mb-xl-4 mb-lg-3 mb-4">
+                                    Планирование и проектирование
+                                </h3>
+                                <p>
+                                    Пошаговые рекомендации по проектированию
+                                    домов под ключ, подбору материалов и
+                                    составлению бюджета для успешной реализации
+                                    проектов.
+                                </p>
+                            </div>
+                            <div
+                                class="col-sm-6 col-xl-5 mb-xl-5 mb-lg-3 mb-4 text-center text-sm-left"
+                            >
+                                <i
+                                    class="ti-blackboard mb-xl-4 mb-lg-3 mb-4 feature-icon"
+                                ></i>
+                                <h3 class="mb-xl-4 mb-lg-3 mb-4">
+                                    Юридические аспекты
+                                </h3>
+                                <p>
+                                    Консультации по строительным нормам и
+                                    юридическим нюансам, чтобы каждый проект
+                                    соответствовал законодательству и был
+                                    безопасным.
+                                </p>
+                            </div>
+                            <div
+                                class="col-sm-6 col-xl-5 mb-xl-5 mb-lg-3 mb-4 text-center text-sm-left"
+                            >
+                                <i
+                                    class="ti-agenda mb-xl-4 mb-lg-3 mb-4 feature-icon"
+                                ></i>
+                                <h3 class="mb-xl-4 mb-lg-3 mb-4">
+                                    Подбор материалов
+                                </h3>
+                                <p>
+                                    Экспертная помощь в выборе долговечных и
+                                    бюджетных материалов с оптимальным
+                                    соотношением цена/качество для каждого
+                                    проекта.
+                                </p>
+                            </div>
+                            <div
+                                class="col-sm-6 col-xl-5 mb-xl-5 mb-lg-3 mb-4 text-center text-sm-left"
+                            >
+                                <i
+                                    class="ti-write mb-xl-4 mb-lg-3 mb-4 feature-icon"
+                                ></i>
+                                <h3 class="mb-xl-4 mb-lg-3 mb-4">
+                                    Современные технологии
+                                </h3>
+                                <p>
+                                    Внедрение инновационных строительных
+                                    технологий для повышения качества и
+                                    сокращения сроков возведения домов под ключ.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /banner-feature -->
+
+        <!-- cta -->
+        <section class="section bg-primary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h6 class="text-white font-secondary mb-0">
+                            Первый шаг к успешному строительству
+                        </h6>
+                        <h2 class="section-title text-white">
+                            Готовы построить дом вашей мечты под ключ?
+                        </h2>
+                        <a href="contact.html" class="btn btn-light"
+                            >Начать проект</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /cta -->
+
+        <!-- about us -->
+        <section class="section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 order-2 order-md-1">
+                        <h2 class="section-title">
+                            Наш подход к строительству домов под ключ
+                        </h2>
+                        <p>
+                            В центре нашей работы — комплексное сопровождение
+                            строительства домов: от подбора материалов до
+                            планирования бюджета и соблюдения всех юридических
+                            норм. Мы создаём проекты с учётом современных
+                            технологий, чтобы каждый дом был долговечным и
+                            функциональным.
+                        </p>
+                        <p>
+                            Мы тщательно анализируем каждый этап строительства,
+                            учитываем индивидуальные требования заказчика и
+                            особенности участка. На основе этого формируем
+                            подробные рекомендации, обеспечивающие эффективное и
+                            качественное выполнение проекта.
+                        </p>
+                        <a href="about.html" class="btn btn-outline-primary"
+                            >Подробнее о нас</a
+                        >
+                    </div>
+                    <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
+                        <img
+                            class="img-fluid w-100"
+                            src="images/about/approach.jpg"
+                            alt="about image"
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /about us -->
+
+        <!-- success story -->
+        <section
+            class="section bg-cover"
+            data-background="images/backgrounds/success-story.jpg"
+        >
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-8">
+                        <div class="bg-white p-5">
+                            <h2 class="section-title">
+                                Примеры успешных проектов
+                            </h2>
+                            <p>
+                                В этой секции мы демонстрируем реальные проекты
+                                домов под ключ, где наши эксперты и клиенты
+                                успешно реализовали строительство с
+                                использованием современных технологий,
+                                эффективного планирования и правильного подбора
+                                материалов.
+                            </p>
+                            <p>
+                                Представленные проекты показывают, как
+                                структурированный подход, профессиональное
+                                планирование и инновационные решения
+                                обеспечивают качественное строительство,
+                                соблюдение бюджета и высокую долговечность
+                                домов.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /success story -->
+
+        <!-- blog -->
+        <section class="section pt-0 mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="section-title">
+                            Последние статьи о строительстве домов под ключ
+                        </h2>
+                        <p>
+                            Следите за нашими публикациями, где мы делимся
+                            уникальными советами по подбору материалов,
+                            бюджетному планированию, юридическим нюансам и
+                            внедрению современных технологий в строительстве.
+                            Наши статьи помогут вам сделать процесс
+                            строительства более эффективным и экономичным.
+                        </p>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <!-- blog post -->
+                    <article class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+                        <div
+                            class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow"
+                        >
+                            <img
+                                class="card-img-top rounded-0"
+                                src="images/blog/post-1.jpg"
+                                alt="Post thumb"
+                            />
+                            <div class="card-body">
+                                <!-- post meta -->
+                                <ul class="list-inline mb-3">
+                                    <!-- post date -->
+                                    <li class="list-inline-item mr-3 ml-0">
+                                        28 августа 2025
+                                    </li>
+                                    <!-- author -->
+                                    <li class="list-inline-item mr-3 ml-0">
+                                        Автор: Алексей Воронов
+                                    </li>
+                                </ul>
+                                <a>
+                                    <h4 class="card-title">
+                                        Подбор материалов для долговечного
+                                        строительства
+                                    </h4>
+                                </a>
+                                <p class="card-text">
+                                    В этой статье мы анализируем стратегии
+                                    выбора качественных и бюджетных строительных
+                                    материалов, чтобы каждый проект дома под
+                                    ключ был долговечным и экономически
+                                    эффективным.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- blog post -->
+                    <article class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+                        <div
+                            class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow"
+                        >
+                            <img
+                                class="card-img-top rounded-0"
+                                src="images/blog/post-2.jpg"
+                                alt="Post thumb"
+                            />
+                            <div class="card-body">
+                                <!-- post meta -->
+                                <ul class="list-inline mb-3">
+                                    <!-- post date -->
+                                    <li class="list-inline-item mr-3 ml-0">
+                                        9 мая 2025
+                                    </li>
+                                    <!-- author -->
+                                    <li class="list-inline-item mr-3 ml-0">
+                                        Автор: Екатерина Лебедева
+                                    </li>
+                                </ul>
+                                <a>
+                                    <h4 class="card-title">
+                                        Планирование бюджета строительства
+                                    </h4>
+                                </a>
+                                <p class="card-text">
+                                    Эта статья рассказывает о методах грамотного
+                                    бюджетирования проектов домов под ключ. Мы
+                                    делимся практическими советами по
+                                    оптимизации расходов и контролю затрат на
+                                    каждом этапе строительства.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- blog post -->
+                    <article class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+                        <div
+                            class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow"
+                        >
+                            <img
+                                class="card-img-top rounded-0"
+                                src="images/blog/post-3.jpg"
+                                alt="Post thumb"
+                            />
+                            <div class="card-body">
+                                <!-- post meta -->
+                                <ul class="list-inline mb-3">
+                                    <!-- post date -->
+                                    <li class="list-inline-item mr-3 ml-0">
+                                        14 июня 2025
+                                    </li>
+                                    <!-- author -->
+                                    <li class="list-inline-item mr-3 ml-0">
+                                        Автор: Игорь Соколов
+                                    </li>
+                                </ul>
+                                <a>
+                                    <h4 class="card-title">
+                                        Современные технологии в строительстве
+                                        домов
+                                    </h4>
+                                </a>
+                                <p class="card-text">
+                                    Использование инновационных технологий
+                                    помогает ускорить строительство, повысить
+                                    качество и снизить ошибки. В статье
+                                    рассматриваются примеры успешного внедрения
+                                    современных решений в проекты домов под
+                                    ключ.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- /blog -->
+
+        <!-- footer -->
+        <footer>
+            <!-- newsletter -->
+            <div class="newsletter">
+                <div class="container">
+                    <div class="row">
+                        <div
+                            class="col-md-9 ml-auto bg-primary py-5 newsletter-block"
+                        >
+                            <h3 class="text-white">Подписка на новости</h3>
+                            <form action="thanks.html" method="get">
+                                <div class="input-wrapper">
+                                    <input
+                                        type="email"
+                                        class="form-control border-0"
+                                        id="email"
+                                        name="newsletter"
+                                        placeholder="Ваш e-mail..."
+                                        required
+                                    />
+                                    <button
+                                        type="submit"
+                                        id="submit"
+                                        value="send"
+                                        class="btn btn-primary"
+                                    >
+                                        Подписаться
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- footer content -->
+            <div class="footer bg-footer section border-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-8 mb-5 mb-lg-0">
+                            <!-- logo -->
+                            <a class="logo-footer" href="index.html">
+                                <h2 style="color: #fff">SmartDwell</h2>
+                            </a>
+                            <p>
+                                Добро пожаловать в SmartDwell – платформу,
+                                посвящённую строительству домов под ключ. Мы
+                                делимся практическими советами по выбору
+                                материалов, бюджетному планированию, юридическим
+                                аспектам и современным строительным технологиям.
+                                Наши материалы помогают сделать каждый проект
+                                качественным, экономичным и долговечным.
+                            </p>
+                        </div>
+                        <!-- company -->
+                        <div
+                            class="col-lg-4 col-md-4 col-sm-4 col-6 mb-5 mb-md-0"
+                        >
+                            <h4 class="text-white mb-5">ССЫЛКИ</h4>
+                            <ul class="list-unstyled">
+                                <li class="mb-3">
+                                    <a class="text-color" href="index.html"
+                                        >Главная</a
+                                    >
+                                </li>
+                                <li class="mb-3">
+                                    <a class="text-color" href="about.html"
+                                        >О нас</a
+                                    >
+                                </li>
+                                <li class="mb-3">
+                                    <a class="text-color" href="contact.html"
+                                        >Контакты</a
+                                    >
+                                </li>
+                                <li class="mb-3">
+                                    <a
+                                        class="text-color"
+                                        href="terms-of-use.html"
+                                        >Условия использования</a
+                                    >
+                                </li>
+                                <li class="mb-3">
+                                    <a
+                                        class="text-color"
+                                        href="privacy-policy.html"
+                                        >Политика конфиденциальности</a
+                                    >
+                                </li>
+                                <li class="mb-3">
+                                    <a
+                                        class="text-color"
+                                        href="cookie-policy.html"
+                                        >Политика использования Cookie</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <div
+                            class="col-lg-4 col-md-4 col-sm-4 col-6 mb-5 mb-md-0"
+                        >
+                            <h4 class="text-white mb-5">КОНТАКТЫ</h4>
+                            <ul class="list-unstyled">
+                                <li class="mb-2">
+                                    Желтоқсан көшесі 20Б, Шымкент, Казахстан
+                                </li>
+                                <li class="mb-2">+77027738913</li>
+                                <li class="mb-2">smart_dwell@gmail.com</li>
+                            </ul>
+                        </div>
+                        <!-- links -->
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- /footer -->
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Согласие на Cookie</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Этот сайт использует файлы Cookie для улучшения вашего опыта
+                    работы и предоставления релевантного контента.
+                    <a href="cookie-policy.html">Подробнее...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Принять</button>
+                <button class="cookie-button" id="declineBtn">Отклонить</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- jQuery (use trusted CDN) -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+        <!-- Slick Slider -->
+        <script src="plugins/slick/slick.min.js"></script>
+
+        <!-- VenoBox JS -->
+        <script src="https://cdn.jsdelivr.net/npm/venobox@1.9.3/venobox/venobox.min.js"></script>
+
+        <!-- ✅ Slick Animation Plugin (Fixes the error) -->
+        <script src="https://cdn.jsdelivr.net/npm/slick-animation@1.0.0/slick-animation.min.js"></script>
+
+        <!-- Your custom scripts -->
+        <script src="js/script.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>

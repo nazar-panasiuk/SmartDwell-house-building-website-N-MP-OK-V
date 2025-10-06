@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!-- Basic Page Needs
+	================================================== -->
+        <meta charset="utf-8" />
+        <title>SmartDwell</title>
+
+        <!-- Mobile Specific Metas
+	================================================== -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta
+            name="description"
+            content="Онлайн-платформа по строительству домов под ключ с практическими советами по подбору материалов, бюджетному планированию, юридическим аспектам и внедрению современных технологий."
+        />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, maximum-scale=5.0"
+        />
+
+        <!-- theme meta -->
+        <meta name="theme-name" content="educenter" />
+
+        <!-- ** Plugins Needed for the Project ** -->
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css" />
+        <!-- slick slider -->
+        <link rel="stylesheet" href="plugins/slick/slick.css" />
+        <!-- themefy-icon -->
+        <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css" />
+        <!-- animation css -->
+        <link rel="stylesheet" href="plugins/animate/animate.css" />
+        <!-- aos -->
+        <link rel="stylesheet" href="plugins/aos/aos.css" />
+        <!-- venobox popup -->
+        <link rel="stylesheet" href="plugins/venobox/venobox.css" />
+
+        <!-- Main Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+
+        <!--Favicon-->
+        <link
+            rel="shortcut icon"
+            href="images/favicon.png"
+            type="image/x-icon"
+        />
+        <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+    </head>
+
+    <body>
+        <!-- preloader start -->
+        <div class="preloader">
+            <img src="images/preloader.gif" alt="preloader" />
+        </div>
+        <!-- preloader end -->
+
+        <!-- header -->
+        <header class="fixed-top header">
+            <!-- navbar -->
+            <div class="navigation w-100">
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg navbar-dark p-0">
+                        <a class="navbar-brand" href="index.html">
+                            <h2 style="font-weight: bold; color: #ffbc3b">
+                                SmartDwell
+                            </h2>
+                        </a>
+                        <button
+                            class="navbar-toggler rounded-0"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#navigation"
+                            aria-controls="navigation"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                        >
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navigation">
+                            <ul class="navbar-nav ml-auto text-center">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html"
+                                        >Главная</a
+                                    >
+                                </li>
+                                <li class="nav-item @@about">
+                                    <a class="nav-link" href="about.html"
+                                        >О нас</a
+                                    >
+                                </li>
+                                <li class="nav-item @@courses">
+                                    <a class="nav-link" href="services.html"
+                                        >Услуги</a
+                                    >
+                                </li>
+                                <li class="nav-item @@blog">
+                                    <a class="nav-link" href="testimonials.html"
+                                        >Отзывы</a
+                                    >
+                                </li>
+                                <li class="nav-item @@contact active">
+                                    <a class="nav-link" href="contact.html"
+                                        >Контакты</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!-- /header -->
+
+        <!-- page title -->
+        <section
+            class="page-title-section overlay"
+            data-background="images/backgrounds/page-title.jpg"
+        >
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <ul class="list-inline custom-breadcrumb mb-2">
+                            <li class="list-inline-item">
+                                <a
+                                    class="h2 text-primary font-secondary"
+                                    href="index.html"
+                                    >Главная</a
+                                >
+                            </li>
+                            <li
+                                class="list-inline-item text-white h3 font-secondary nasted"
+                            >
+                                Контакты
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /page title -->
+
+        <!-- contact -->
+        <section class="section bg-gray">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2 class="section-title">Свяжитесь с нами</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-7 mb-4 mb-lg-0">
+                        <form action="thanks.html" method="get">
+                            <input
+                                type="text"
+                                class="form-control mb-3"
+                                id="name"
+                                name="name"
+                                placeholder="Ваше имя"
+                                required
+                            />
+                            <input
+                                type="email"
+                                class="form-control mb-3"
+                                id="email"
+                                name="mail"
+                                placeholder="Ваш E-Mail"
+                                required
+                            />
+                            <input
+                                type="text"
+                                class="form-control mb-3"
+                                id="subject"
+                                name="subject"
+                                placeholder="Тема обращения"
+                                required
+                            />
+                            <textarea
+                                name="message"
+                                id="message"
+                                class="form-control mb-3"
+                                placeholder="Ваше сообщение"
+                                required
+                            ></textarea>
+                            <button
+                                type="submit"
+                                id="submit"
+                                value="send"
+                                class="btn btn-primary"
+                            >
+                                ОТПРАВИТЬ СООБЩЕНИЕ
+                            </button>
+                        </form>
+                    </div>
+                    <div class="col-lg-5">
+                        <p class="mb-5">
+                            Мы предоставляем экспертные консультации и пошаговые
+                            рекомендации по строительству домов под ключ,
+                            подбору материалов, планированию бюджета,
+                            юридическим аспектам и современным технологиям. Наша
+                            цель — помочь вам реализовать проект эффективно,
+                            безопасно и с учётом всех деталей.
+                        </p>
+                        <a
+                            href="tel:+77027738913"
+                            class="text-color h5 d-block"
+                        >
+                            +77027738913</a
+                        >
+                        <a
+                            href="mailto:smart_dwell@gmail.com"
+                            class="mb-5 text-color h5 d-block"
+                            >smart_dwell@gmail.com</a
+                        >
+                        <p>Желтоқсан көшесі 20Б, Шымкент, Казахстан</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /contact -->
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d755153.0644923445!2d68.37224127812502!3d42.325109099999985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38a91c196288d5df%3A0xd63fb00c81dd243b!2sKazakhstan%20Business%20Service%20Company!5e0!3m2!1suk!2sua!4v1759749588446!5m2!1suk!2sua"
+            width="100%"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+
+        <!-- footer -->
+        <footer>
+            <!-- footer content -->
+            <div class="footer bg-footer section border-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-8 mb-5 mb-lg-0">
+                            <!-- logo -->
+                            <a class="logo-footer" href="index.html">
+                                <h2 style="color: #fff">SmartDwell</h2>
+                            </a>
+                            <p>
+                                Добро пожаловать в SmartDwell – платформу,
+                                посвящённую строительству домов под ключ. Мы
+                                делимся практическими советами по выбору
+                                материалов, бюджетному планированию, юридическим
+                                аспектам и современным строительным технологиям.
+                                Наши материалы помогают сделать каждый проект
+                                качественным, экономичным и долговечным.
+                            </p>
+                        </div>
+                        <!-- company -->
+                        <div
+                            class="col-lg-4 col-md-4 col-sm-4 col-6 mb-5 mb-md-0"
+                        >
+                            <h4 class="text-white mb-5">ССЫЛКИ</h4>
+                            <ul class="list-unstyled">
+                                <li class="mb-3">
+                                    <a class="text-color" href="index.html"
+                                        >Главная</a
+                                    >
+                                </li>
+                                <li class="mb-3">
+                                    <a class="text-color" href="about.html"
+                                        >О нас</a
+                                    >
+                                </li>
+                                <li class="mb-3">
+                                    <a class="text-color" href="contact.html"
+                                        >Контакты</a
+                                    >
+                                </li>
+                                <li class="mb-3">
+                                    <a
+                                        class="text-color"
+                                        href="terms-of-use.html"
+                                        >Условия использования</a
+                                    >
+                                </li>
+                                <li class="mb-3">
+                                    <a
+                                        class="text-color"
+                                        href="privacy-policy.html"
+                                        >Политика конфиденциальности</a
+                                    >
+                                </li>
+                                <li class="mb-3">
+                                    <a
+                                        class="text-color"
+                                        href="cookie-policy.html"
+                                        >Политика использования Cookie</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <div
+                            class="col-lg-4 col-md-4 col-sm-4 col-6 mb-5 mb-md-0"
+                        >
+                            <h4 class="text-white mb-5">КОНТАКТЫ</h4>
+                            <ul class="list-unstyled">
+                                <li class="mb-2">
+                                    Желтоқсан көшесі 20Б, Шымкент, Казахстан
+                                </li>
+                                <li class="mb-2">+77027738913</li>
+                                <li class="mb-2">smart_dwell@gmail.com</li>
+                            </ul>
+                        </div>
+                        <!-- links -->
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- /footer -->
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Согласие на Cookie</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Этот сайт использует файлы Cookie для улучшения вашего опыта
+                    работы и предоставления релевантного контента.
+                    <a href="cookie-policy.html">Подробнее...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Принять</button>
+                <button class="cookie-button" id="declineBtn">Отклонить</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- jQuery (use trusted CDN) -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+        <!-- Slick Slider -->
+        <script src="plugins/slick/slick.min.js"></script>
+
+        <!-- VenoBox JS -->
+        <script src="https://cdn.jsdelivr.net/npm/venobox@1.9.3/venobox/venobox.min.js"></script>
+
+        <!-- ✅ Slick Animation Plugin (Fixes the error) -->
+        <script src="https://cdn.jsdelivr.net/npm/slick-animation@1.0.0/slick-animation.min.js"></script>
+
+        <!-- Your custom scripts -->
+        <script src="js/script.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
